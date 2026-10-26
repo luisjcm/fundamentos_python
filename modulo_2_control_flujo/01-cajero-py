@@ -1,0 +1,32 @@
+# Colores para dar formato a la salida en la terminal
+rojo = "\033[91m"
+verde = "\033[92m"
+reset = "\033[0m"  # Esto devuelve el color a la normalidad
+
+pin_guardado = "1234"
+
+pin = input("Ingrese su pin: ")
+
+if pin == pin_guardado:
+    print(f"{verde}Pin correcto, bienvenido{reset}")
+    saldo = 1000.0
+    while True:
+        opcion = input("¿Que desea hacer? (1: Consultar saldo, 2: Retirar dinero, 3: Salir):  ")
+
+        if opcion == "1":
+                print(f"Su saldo actual es: {verde}${saldo:.2f}{reset}")
+        elif opcion == "2":
+                monto_retiro = float(input("¿Cuanto dinero desea retirar?  "))
+                if monto_retiro > saldo:
+                      print(f"{rojo}Fondos insuficientes.{reset}")
+                else: 
+                      saldo -= monto_retiro
+                      print(f"Has retirado {verde}{monto_retiro}{reset} exitosamente")
+                      print(f"Saldo disponible: {verde}{saldo}{reset}")
+        elif opcion == "3":
+                print(f"{verde}☺Gracias por usar nuestro servicio☺{reset}")
+                break;
+        else:
+                print(f"{rojo}Opción no válida{reset}")
+else: 
+    print(f"{rojo}Error: PIN incorrecto, no puede acceder a su cuenta{reset}")
