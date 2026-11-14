@@ -1,0 +1,4 @@
+--- BITÁCORA DE SOPORTE AVIOR ---
+Fecha: Hoy | Turno: Mañana
+---------------------------------
+NUEVO EVENTO: INC-105: Reinicio de router principal.
