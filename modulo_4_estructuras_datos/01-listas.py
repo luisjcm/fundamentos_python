@@ -1,3 +1,4 @@
+# Listas se declaran con []
 cola_tickets = ["INC-101", "INC-102", "INC-103"]
 print(f"Cola inicial: {cola_tickets}")
 
