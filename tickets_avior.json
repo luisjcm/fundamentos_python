@@ -1,0 +1,12 @@
+[
+    {
+        "id": 1,
+        "asunto": "Falla de VPN",
+        "estado": "Abierto"
+    },
+    {
+        "id": 2,
+        "asunto": "Mantenimiento preventivo de PC",
+        "estado": "Abierto"
+    }
+]
