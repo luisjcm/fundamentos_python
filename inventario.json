@@ -1,0 +1,14 @@
+[
+    {
+        "id": 1,
+        "equipo": "PC-Operaciones",
+        "ip": "192.168.1.50",
+        "estado": "Operativo"
+    },
+    {
+        "id": 2,
+        "equipo": "Router-Principal",
+        "ip": "192.168.1.1",
+        "estado": "Alerta"
+    }
+]
