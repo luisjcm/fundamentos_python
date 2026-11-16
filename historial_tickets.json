@@ -1,0 +1,14 @@
+[
+    {
+        "id": 1,
+        "asunto": "Lentitud de internet",
+        "tecnico": "Clementine Bauch",
+        "estado": "Abierto"
+    },
+    {
+        "id": 2,
+        "asunto": "Mouse sin funcionar",
+        "tecnico": "Clementine Bauch",
+        "estado": "Abierto"
+    }
+]
